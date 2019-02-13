@@ -1,5 +1,4 @@
 const decode = require('audio-decode');
-const max = require('lodash/max');
 const fs = require('fs');
 const { createCanvas } = require('canvas');
 require('vorbis.js');

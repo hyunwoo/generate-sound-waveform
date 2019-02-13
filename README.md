@@ -18,7 +18,7 @@ This package converts sound files such as wav and mp3 to waveform images in Node
 ## Usage
 
 ```
-const lib = require('./index');
+const lib = require('generate-sound-waveform');
 const fs = require('fs');
 
 lib
