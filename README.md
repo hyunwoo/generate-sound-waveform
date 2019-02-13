@@ -1,4 +1,4 @@
-# genearte-sound-waveform
+# generate-sound-waveform
 
 This package converts sound files such as wav and mp3 to waveform images in Nodejs environment.
 
@@ -9,15 +9,13 @@ This package converts sound files such as wav and mp3 to waveform images in Node
 - ogg
 - flac
 
-## Output 
+## Output
 
-![1250x250 padding:10px](https://hyunwoo.io/genearte-sound-waveform/test.jpeg)
-![1250x250 padding:60px](https://hyunwoo.io/genearte-sound-waveform/test2.jpeg)
-![1250x250 padding:60px](https://hyunwoo.io/genearte-sound-waveform/test3.jpeg)
+![1250x250 padding:10px](https://hyunwoo.io/generate-sound-waveform/test.jpeg)
+![1250x250 padding:60px](https://hyunwoo.io/generate-sound-waveform/test2.jpeg)
+![1250x250 padding:60px](https://hyunwoo.io/generate-sound-waveform/test3.jpeg)
 
 ## Usage
-
-
 
 ```
 const lib = require('./index');
@@ -46,23 +44,23 @@ lib
 
 ## Options
 
-| property        | value  | default |
-|:--------------- |:------ | -------:|
-| padding         | number |       8 |
-| stepMultiplier  | number |       4 |
-| backgroundColor | string |  '#fff' |
-| lineColor       | number |  '#666' |
-| globalAplha     | number |     0.6 |
-| lineWidth       | number |     0.5 |
-| centerLine      | boolean|    true |
-| centerLineColor | string |  '#fff' |
+| property        | value   | default |
+| :-------------- | :------ | ------: |
+| padding         | number  |       8 |
+| stepMultiplier  | number  |       4 |
+| backgroundColor | string  |  '#fff' |
+| lineColor       | number  |  '#666' |
+| globalAplha     | number  |     0.6 |
+| lineWidth       | number  |     0.5 |
+| centerLine      | boolean |    true |
+| centerLineColor | string  |  '#fff' |
 
 ## Development paradigm
 
 - The package should be easy to use.
 - The background color and color of the output jpeg file should be changed according to the user's options.
 
-**The Sample Project is available in [GitHub - hyunwoo/genearte-sound-waveform](https://github.com/hyunwoo/genearte-sound-waveform) along with a sample sound file.**
+**The Sample Project is available in [GitHub - hyunwoo/generate-sound-waveform](https://github.com/hyunwoo/generate-sound-waveform) along with a sample sound file.**
 
 _Thanks To_
 
