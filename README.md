@@ -1,7 +1,10 @@
 # generate-sound-waveform
 
 This package converts sound files such as wav and mp3 to waveform images in Nodejs environment.\
+
 **The node gyp related installation may take a long time.**
+
+
 
 ## Supported sound formats:
 
@@ -10,11 +13,16 @@ This package converts sound files such as wav and mp3 to waveform images in Node
 - ogg
 - flac
 
+
+
 ## Output
 
 ![1250x250 padding:10px](https://hyunwoo.io/generate-sound-waveform/test.jpeg)
 ![1250x250 padding:60px](https://hyunwoo.io/generate-sound-waveform/test2.jpeg)
 ![1250x250 padding:60px](https://hyunwoo.io/generate-sound-waveform/test3.jpeg)
+
+
+
 
 ## Usage
 
@@ -43,11 +51,13 @@ lib
   });
 ```
 
+
+
 ## API
 
 ### method :
 
-generateSoundImage(path, width, height, option?)
+**generateSoundImage(path, width, height, option?)**
 
 | property | value  |                  desc |
 | :------- | :----- | --------------------: |
@@ -55,6 +65,9 @@ generateSoundImage(path, width, height, option?)
 | width    | number |     export jpeg width |
 | height   | number |    export jpeg height |
 | option   | object | export image settings |
+
+
+
 
 ## Options
 
@@ -69,12 +82,21 @@ generateSoundImage(path, width, height, option?)
 | centerLine      | boolean |    true |
 | centerLineColor | string  |  '#fff' |
 
+
+
+
 ## Development paradigm
 
 - The package should be easy to use.
 - The background color and color of the output jpeg file should be changed according to the user's options.
 
+
+---
+
+
 **The Sample Project is available in [GitHub - hyunwoo/generate-sound-waveform](https://github.com/hyunwoo/generate-sound-waveform) along with a sample sound file.**
+
+
 
 _Thanks To_
 
