@@ -46,13 +46,14 @@ lib
 
 ### method :
 
-generateSoundImage(path, width, height)
+generateSoundImage(path, width, height, option?)
 
-| property | value | desc |
-| :-------------- | :------ | :------ |
-| path | string | sound file path |
-| width | number | export jpeg width |
-| height | number | export jpeg height |
+| property | value  |                  desc |
+| :------- | :----- | --------------------: |
+| path     | string |       sound file path |
+| width    | number |     export jpeg width |
+| height   | number |    export jpeg height |
+| option   | object | export image settings |
 
 ## Options
 
