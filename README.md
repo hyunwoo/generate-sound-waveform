@@ -44,5 +44,6 @@ lib
 **The Sample Project is available in [GitHub - hyunwoo/genearte-sound-waveform](https://github.com/hyunwoo/genearte-sound-waveform) along with a sample sound file.**
 
 _Thanks To_
-[audio-decode - npm](https://www.npmjs.com/package/audio-decode)
-[canvas - npm](https://www.npmjs.com/package/canvas)
+
+- [audio-decode - npm](https://www.npmjs.com/package/audio-decode)
+- [canvas - npm](https://www.npmjs.com/package/canvas)
