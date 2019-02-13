@@ -2,12 +2,12 @@ const lib = require('./index');
 const fs = require('fs');
 
 lib
-  .generateSoundImage('./samples/sample1.ogg', 1250, 200, {
+  .generateSoundImage('./samples/sample2.wav', 1250, 200, {
     stepMultiplier: 10,
-    backgroundColor: '#666',
-    lineColor: '#fff',
+    backgroundColor: '#fff',
+    lineColor: '#39c',
     globalAplha: 0.8,
-    padding: 60,
+    padding: 10,
     centerLine: false,
     centerLineColor: '#fff',
   })
