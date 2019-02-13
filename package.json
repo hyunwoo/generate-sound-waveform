@@ -1,6 +1,6 @@
 {
   "name": "generate-sound-waveform",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "This package converts sound files such as wav and mp3 to waveform images in Nodejs environment.",
   "keywords": [
     "waveform",

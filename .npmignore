@@ -1,4 +1,7 @@
-./test.js
-./test.jpeg
-./test2.jpeg
-./test3.jpeg
+test.js
+test.jpeg
+test2.jpeg
+test3.jpeg
+samples
+node_modules
+_config.yml
