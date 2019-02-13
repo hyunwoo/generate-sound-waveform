@@ -1,0 +1,20 @@
+{
+  "name": "genearte-sound-waveform",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audio-context": "^1.0.3",
+    "audio-decode": "^1.4.0",
+    "av": "^0.4.9",
+    "canvas": "^2.3.1",
+    "flac.js": "^0.2.1",
+    "ogg.js": "^0.1.0",
+    "vorbis.js": "^0.1.1"
+  }
+}
