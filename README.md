@@ -17,13 +17,14 @@ const fs = require('fs');
 
 lib
   .generateSoundImage('./samples/sample1.ogg', 1250, 200, {
-    stepMultiplier: 10,
-    backgroundColor: '#666',
-    lineColor: '#fff',
-    globalAplha: 0.8,
-    padding: 60,
-    centerLine: false,
-    centerLineColor: '#fff',
+    stepMultiplier: 10, // Density of waveform [default : 4]
+    backgroundColor: '#666', // image background color [default : '#fff']
+    lineColor: '#fff', // image line color [default : '#666']
+    globalAplha: 0.8, // draw line global alpha value [default : 0.6]
+    padding: 60, // padding height [default : 8]
+    lineWidth : 1 // draw line width [default : 0.5]
+    centerLine: false, // center guide line [default : true]
+    centerLineColor: '#fff', // center guild line color [default : '#fff']
   })
   .then((stream) => {
     const out = fs.createWriteStream('./test.jpeg');
