@@ -17,6 +17,8 @@ This package converts sound files such as wav and mp3 to waveform images in Node
 
 ## Usage
 
+
+
 ```
 const lib = require('./index');
 const fs = require('fs');
@@ -41,6 +43,19 @@ lib
     console.log(err);
   });
 ```
+
+## Options
+
+| property        | value  | default |
+| --------------- |:------:| -------:|
+| padding         | number |       8 |
+| stepMultiplier  | number |       4 |
+| backgroundColor | string |  '#fff' |
+| lineColor       | number |  '#666' |
+| globalAplha     | number |     0.6 |
+| lineWidth       | number |     0.5 |
+| centerLine      | boolean|    true |
+| centerLineColor | string |  '#fff' |
 
 ## Development paradigm
 
