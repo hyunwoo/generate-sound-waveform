@@ -1,12 +1,19 @@
 {
   "name": "genearte-sound-waveform",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
+  "keywords": [
+    "waveform",
+    "nodejs",
+    "jpeg",
+    "waveformjs",
+    "generate"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
+  "author": "h.hyunwoo <h.hyunwoo@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "audio-context": "^1.0.3",
