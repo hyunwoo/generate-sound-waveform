@@ -20,7 +20,7 @@ This package converts sound files such as wav and mp3 to waveform images in Node
 ```
 const lib = require('generate-sound-waveform');
 const fs = require('fs');
-
+// generateSoundImage([SOUND FILE PATH], [WIDTH], [HEIGHT])
 lib
   .generateSoundImage('./samples/sample1.ogg', 1250, 200, {
     stepMultiplier: 10, // Density of waveform [default : 4]
@@ -41,6 +41,17 @@ lib
     console.log(err);
   });
 ```
+
+## API
+
+### method :
+
+generateSoundImage(path, width, height)
+| property | value | desc |
+| :-------------- | :------ | ------: |
+| path | string | sound file path |
+| width | number | export jpeg width |
+| height | number | export jpeg height |
 
 ## Options
 
