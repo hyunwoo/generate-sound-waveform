@@ -47,8 +47,9 @@ lib
 ### method :
 
 generateSoundImage(path, width, height)
+
 | property | value | desc |
-| :-------------- | :------ | ------: |
+| :-------------- | :------ | :------ |
 | path | string | sound file path |
 | width | number | export jpeg width |
 | height | number | export jpeg height |
