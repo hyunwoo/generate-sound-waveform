@@ -9,6 +9,12 @@ This package converts sound files such as wav and mp3 to waveform images in Node
 - ogg
 - flac
 
+## Output 
+
+![1250x250 padding:10px](https://hyunwoo.io/genearte-sound-waveform/test.jpeg)
+![1250x250 padding:60px](https://hyunwoo.io/genearte-sound-waveform/test2.jpeg)
+![1250x250 padding:60px](https://hyunwoo.io/genearte-sound-waveform/test3.jpeg)
+
 ## Usage
 
 ```
