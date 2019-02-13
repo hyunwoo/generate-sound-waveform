@@ -47,7 +47,7 @@ lib
 ## Options
 
 | property        | value  | default |
-| --------------- |:------:| -------:|
+|:--------------- |:------ | -------:|
 | padding         | number |       8 |
 | stepMultiplier  | number |       4 |
 | backgroundColor | string |  '#fff' |
