@@ -1,7 +1,7 @@
 # generate-sound-waveform
 
 This package converts sound files such as wav and mp3 to waveform images in Nodejs environment.\
-** The node gyp related installation may take a long time. **
+**The node gyp related installation may take a long time.**
 
 ## Supported sound formats:
 
