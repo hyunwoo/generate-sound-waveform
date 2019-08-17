@@ -6,7 +6,10 @@ require('flac.js');
 
 function loadSoundData(soundPath) {
   return new Promise((resolve, reject) => {
-    const buf = fs.readFileSync(soundPath);
+    let buf = soundPath;
+    if (typeof soundPath === 'string') {
+      buf = fs.readFileSync(soundPath);
+    }
     decode(buf)
       .then(resolve)
       .catch(reject);
